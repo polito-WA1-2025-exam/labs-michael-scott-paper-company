@@ -1,11 +1,9 @@
-# Group "GROUP NAME"
+# Group "Micheal Scott Paper Company"
 
 ## Members
-- s123456 LASTNAME FIRSTNAME
-- s123456 LASTNAME FIRSTNAME
-- s123456 LASTNAME FIRSTNAME
+- s346320 RAGAGLIA LUCA
 
-# Exercise "NAME OF EXERCISE"
+# Exercise "POKE"
 
 # Lab Journal
 
