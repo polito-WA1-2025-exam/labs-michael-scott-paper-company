@@ -1,6 +1,6 @@
-import Bowl from "../classes/bowl.mjs";
-import Order from "../classes/order.mjs";
-import Container from "./container.mjs";
+import Bowl from "../models/bowl.mjs";
+import Order from "../models/order.mjs";
+import Container from "./models.mjs";
 
 const myContainer = new Container();
 

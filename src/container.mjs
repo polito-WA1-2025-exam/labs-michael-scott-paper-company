@@ -1,5 +1,5 @@
-import Bowl from "../classes/bowl.mjs";
-import Order from "../classes/order.mjs";
+import Bowl from "../models/bowl.mjs";
+import Order from "../models/order.mjs";
 
 export default function Container() {
     this.bowls = []

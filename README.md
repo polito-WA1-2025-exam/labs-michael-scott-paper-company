@@ -1,10 +1,28 @@
 # Group "Micheal Scott Paper Company"
+Members: s346320 RAGAGLIA LUCA.  
+Exercise chosen: Poke.  
 
-## Members
-- s346320 RAGAGLIA LUCA
+## Database
 
-# Exercise "POKE"
+### Table: bowls
+| id | size | base | proteins | ingredients |
+|----|------|------|----------|-------------|
 
-# Lab Journal
+### Table: bowlInfo
+| size | price | quantityPerDay | remainingToday |
+|------|-------|----------------|----------------|
+| R    | 9     | 10             | 10             |
+| M    | 11    | 8              | 8              |
+| L    | 14    | 6              | 6              |
 
-(you may update this file to keep track of the progress of your group work, throughout the weeks)
+### Table: users
+| id | 
+|----|
+
+### Table: orders
+| id | textInput | paidPrice | numOfBowls |
+|----|-----------|-----------|------------|
+
+### Table: purchaseHistory
+| userId | orderId | bowlId |
+|--------|---------|--------|
