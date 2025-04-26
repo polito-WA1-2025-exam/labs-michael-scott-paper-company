@@ -30,5 +30,4 @@ export default function Container() {
     this.delUserById = id => { 
         this.users = this.users.filter( user => user.id != id );
     };
-
 }

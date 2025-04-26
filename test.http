@@ -1,9 +1,0 @@
-POST http://localhost:3000/add-bowl/
-Content-Type: application/json
-
-{
-    "size": "R", 
-    "base": "rice",
-    "proteins": ["tuna"],
-    "ingredients": ["avocado", "avocado", "ananas", "avocado", "kale", "kale"]
-}

@@ -1,6 +1,6 @@
 import Bowl from "../models/bowl.mjs";
 import Order from "../models/order.mjs";
-import Container from "./models.mjs";
+import Container from "./container.mjs";
 
 const myContainer = new Container();
 
@@ -15,15 +15,20 @@ myContainer.addBowl( new Bowl(4, 'R', 'salad', ['tofu'], ['wakame']));
 // console.log(myContainer.delBowlById(3));
 // console.log(myContainer.getBowls());
 
-myContainer.addOrder( new Order(0, [...myContainer.getBowls()], "Sono allergico al pomodoro") );
-console.log(myContainer.getOrderById(0));
-console.log(myContainer.getOrderById(0).getTotalPrice());
+// myContainer.addOrder( new Order(0, [...myContainer.getBowls()], "Sono allergico al pomodoro") );
+// console.log(myContainer.getOrderById(0));
+// console.log(myContainer.getOrderById(0).getTotalPrice());
 
-myContainer.addOrder( new Order(0, [myContainer.getBowlById(0), myContainer.getBowlById(1)], "Sono allergico al pomodoro") );
+// myContainer.addOrder( new Order(0, [myContainer.getBowlById(0), myContainer.getBowlById(1)], "Sono allergico al pomodoro") );
 
-myContainer.addUser( new User(0, false) );
-myContainer.addUser( new User(1, true) );
-myContainer.addUser( new User(2, false) );
+// myContainer.addUser( new User(0, false) );
+// myContainer.addUser( new User(1, true) );
+// myContainer.addUser( new User(2, false) );
+
+
+const tmp = new Bowl(undefined, 'L', 'salad', ['salmon', 'tofu', 'tuna'], ['mango', 'peppers', 'avocado', 'kale', 'carrots']);
+
+console.log(JSON.stringify(tmp));
 
 
 

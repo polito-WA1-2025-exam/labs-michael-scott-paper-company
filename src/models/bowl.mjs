@@ -5,6 +5,15 @@ export default function Bowl(id, size, base, proteins, ingredients) {
     this.proteins = proteins;
     this.ingredients = ingredients;
 
+    this.toDbFormat = () => {
+        return [
+            this.size, 
+            this.base, 
+            JSON.stringify(this.proteins),
+            JSON.stringify(this.ingredients)
+        ]
+    }
+
     this.numOfExcessedIngredients = () => {
         let num = 0;
 
@@ -58,6 +67,8 @@ export default function Bowl(id, size, base, proteins, ingredients) {
     }
 
 }
+
+
 
 
 

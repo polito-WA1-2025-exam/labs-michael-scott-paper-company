@@ -1,0 +1,16 @@
+GET http://localhost:3000/ HTTP/1.1
+###
+POST http://localhost:3000/bowls/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "size": "R", 
+    "base": "rice",
+    "proteins": ["tuna"],
+    "ingredients": ["avocado", "avocado", "ananas", "avocado", "kale", "kale"]
+}
+###
+GET http://localhost:3000/bowls/28/ HTTP/1.1
+###
+DELETE http://localhost:3000/bowls/28/ HTTP/1.1
+###

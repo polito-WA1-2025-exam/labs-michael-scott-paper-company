@@ -1,0 +1,10 @@
+-- database: ./pokeria.sqlite
+
+-- add a new bowl
+INSERT INTO bowls (size, base, proteins, ingredients) VALUES (?, ?, ?, ?);
+
+-- get a bowl given its id
+SELECT * FROM bowls WHERE id = ?;
+
+-- delete a bowl given its id
+DELETE FROM bowls WHERE id = ?;
